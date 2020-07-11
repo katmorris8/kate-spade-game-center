@@ -1,0 +1,34 @@
+html {
+  color: #223628;
+}
+
+section {
+  text-align: center;
+}
+
+.product-square {
+  background-size: 100%;
+  background-position: bottom;
+  background-repeat: no-repeat;
+}
+
+.ttt-board {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.ttt-board div {
+  border: 1px #223628 solid;
+  width: 30%;
+  height: 6rem;
+}
+
+.ttt-p1 {
+  background-image: url('https://images.katespade.com/is/image/KateSpade/PXRUA161_707?$large$');
+}
+
+.ttt-p2 {
+  background-image: url('https://images.katespade.com/is/image/KateSpade/K1576_820?$large$');
+}
