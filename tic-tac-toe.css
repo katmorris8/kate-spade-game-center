@@ -12,6 +12,32 @@ section {
   background-repeat: no-repeat;
 }
 
+.ttt-players {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.ttt-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ttt-player-color-box {
+  width: 2rem;
+  height: 1rem;
+  margin-left: 1rem;
+}
+
+.ttt-player1 div {
+  background-color: yellow;
+}
+
+.ttt-player2 div {
+  background-color: coral;
+}
+
 .ttt-board {
   width: 100%;
   display: flex;
